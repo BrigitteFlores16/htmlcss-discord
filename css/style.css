@@ -1,0 +1,174 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-col-1-6 {
+    width: calc((100% / 6) * 1);
+}
+
+.flex-col-4-6 {
+    width: calc((100% / 6) * 4);
+}
+
+.flex-col-1-6, .flex-col-4-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-small {
+    padding: 8px 16px;
+    border: none;
+    background-color: #5865f2;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-inverted {
+    padding: 8px 16px;
+    border: 1px solid #5865f2;
+    background-color: white;
+    color: #5865f2;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-blue {
+    padding: 8px 16px;
+    background-color: #5865f2;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 16px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* HEADER */
+
+header {
+    background-color: #23272a;
+    color: white;
+    padding: 16px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* MAIN CONTENT */
+
+.content-1 {
+    margin: 40px 0;
+}
+
+.col-3-5 {
+    width: 60%;
+}
+
+.col-2-5 {
+    width: 40%;
+}
+
+.content-2 img {
+    max-width: 100%;
+}
+
+.content-3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2c2f33;
+    color: white;
+}
+
+.footer-main {
+    padding: 40px 0;
+}
+
+.footer-secondary {
+    background-color: #23272a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-section {
+    justify-content: space-between;
+}
+
+.footer-section h4, .footer-section h5 {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-secondary-wrapper img {
+    max-width: 100px;
+}
+
+.footer-secondary-wrapper .btn-blue {
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
